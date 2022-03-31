@@ -66,3 +66,24 @@ position: absolute;
  left:55px;
  top:-9px;
 }
+.css-zow5z4-MuiGrid-root>.MuiGrid-item {
+  padding-left: 87px;
+  padding-block-end: 60px;
+}
+
+.circle{
+  height:17px;
+  width:17px;
+  background:#01B29A;
+  border-radius: 50%;
+  margin-top: 181px;
+  margin-right: 19px;
+  margin-left: 19px;
+  
+  
+  
+}
+.tx{
+ padding: 20px;
+ font-weight: bolder;
+}

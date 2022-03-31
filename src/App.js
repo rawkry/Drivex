@@ -5,6 +5,7 @@ import Header from './components/Header';
 import SecondSectionScreen from './secreen/SecondSectionScreen';
 import FirstSectionScreen from './secreen/FirstSectionScreen';
 import ThirdSectionScreen from './secreen/ThirdSectionScreen';
+import FourthSectionScreen from './secreen/FourthSectionScreen';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
  <FirstSectionScreen/>
  <SecondSectionScreen/>
  <ThirdSectionScreen/>
+ <FourthSectionScreen/>
 
       </main>
       </>

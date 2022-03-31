@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box,Grid,Typography,Container } from '@mui/material/'
+import { Box,Grid,Typography } from '@mui/material/'
 
 
 
@@ -57,8 +57,13 @@ Book, reschedule<br/> and cancel lessons on the go.
               </Grid>
                <Grid item xs={5}>
                <img src='./images/Rectangle.png' style={{
-  height: "40rem",
-  width: "33rem"
+  height: "35rem",
+  width: "33rem",
+  
+
+
+
+
 }}/>
   
   
