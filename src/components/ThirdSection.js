@@ -17,7 +17,7 @@ const ThirdSection = () => {
                 style={{
                   height:"40rem",
                  position:"absolute",
-                 top:"95rem",
+                 top:"100rem",
                  left:"1rem"
                   
                   
@@ -28,7 +28,7 @@ const ThirdSection = () => {
               sx={{
                 width: "11rem",
                 position: "absolute",
-                top: "107rem",
+                top: "113rem",
                 left: "4rem",
                 display: "flex",
                 justifyContent: "center",
