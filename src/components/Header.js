@@ -1,20 +1,22 @@
-import React from 'react'
-import {AppBar,Box,Toolbar,Button} from '@mui/material';
+import React, { useState } from 'react'
+import {AppBar,Box,Toolbar, Tabs, Tab} from '@mui/material';
 const Header = () => {
+  const[value,setValue]= useState();
   return (
       <>
     <Box sx={{ flexGrow: 1 }}>
     <AppBar position="fixed" style={{background:"white"}}>
-      <Toolbar style={{display:"flex",
-      justifyContent:"space-between",
-      alignItems:"center",
-    }}>
+      <Toolbar >
         
         <img src='./images/logo.png' style={{marginLeft:"15px"}}/>
-             <div className='btn' style={{marginRight:"4rem"}}>
-       <Button  variant="text" style={{marginRight:"4rem", color:"#AAAAAA"}}>DriveX for learners</Button>
-       <Button variant="text" style={{color:"#AAAAAA" }}>DriveX for Instructor</Button>
-       </div>
+            
+               <Tabs sx={{marginLeft:"auto" }}textColor='red' value ={value} onChange={(e,value)=>setValue(value)} indicatorColor="primary">
+                       <Tab sx={{ color:"black"}} label ="DriveX for learners"/>
+                       <Tab  sx={{color:"black"}}label ="DriveX for Instructor"/>
+
+               </Tabs>
+       
+       
       </Toolbar>
       
     </AppBar>

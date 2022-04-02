@@ -10,7 +10,7 @@ const FirstSection = () => {
       <>
       
          <Grid item xs={7}>
-             <Box paddingTop={5} marginTop={15}>
+             <Box paddingTop={5} marginTop={20}>
          <Typography  sx={{color:"white",
          fontWeight: "bolder",
          fontSize: "40px",
@@ -55,10 +55,15 @@ Book, reschedule<br/> and cancel lessons on the go.
 
 
               </Grid>
-               <Grid item xs={5}>
+               <Grid container xs={8} sm={4} md={4} lg={1} >
                <img src='./images/Rectangle.png' style={{
-  height: "35rem",
-  width: "33rem",
+  height: "59rem",
+  width: "60rem",
+  position:"absolute",
+  left:"20rem",
+  top:"-2rem",
+  
+  
   
 
 
