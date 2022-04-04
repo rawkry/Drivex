@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Box, Paper, Button, Container } from "@mui/material";
+import { Typography, Grid, Box, Paper, Button } from "@mui/material";
 
 const ThirdSection = () => {
   return (
@@ -119,13 +119,13 @@ const ThirdSection = () => {
                     margin: "2px",
                     border: "1px solid #ECEBEB",
                     boxSizing: "border-box",
-                    borderRadius: "16px",
+                    
                     background: "#ECEBEB",
                     borderRadius: "16px 16px 0px 16px",
                     fontWeight: "500",
                     fontSize: "14px",
                     lineHeight: "23px",
-                    margin: " 0px 10px",
+                    
                     width: "4rem",
                     height: "1.5rem",
                   }}
@@ -158,9 +158,8 @@ const ThirdSection = () => {
                       textAlign: "center",
                       margin: "2px",
                       border: "1px solid #ECEBEB",
-                      boxSizing: "border-box",
-                      borderRadius: "16px",
-                      border: "1px solid #ECEBEB",
+                    
+                      
                       boxSizing: "border-box",
                       borderRadius: "16px",
                       fontFamily: "SF Pro Text",

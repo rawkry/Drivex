@@ -2,6 +2,8 @@ import React from "react";
 import { Typography, Box, Container, Grid } from "@mui/material";
 import ThirdSection from "../components/ThirdSection";
 
+
+
 const ThirdSectionScreen = () => {
   return (
     <div className="thirdscreen" style={{ background: "#F1F7F6", marginTop:"10rem" }}>
